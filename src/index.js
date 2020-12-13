@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
 import { HeroesApp } from './HeroesApp';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'animate.css/animate.min.css'
 
 
 ReactDOM.render(

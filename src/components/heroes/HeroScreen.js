@@ -28,9 +28,9 @@ export const HeroScreen = ({ history }) => {
         <>
             <Row className='mt-5'>
                 <Col md={4}>
-                    <Image src={`../assets/heroes/${heroeId}.jpg`} alt={superhero} className='img-thumbnail' />
+                    <Image src={`../assets/heroes/${heroeId}.jpg`} alt={superhero} className='img-thumbnail animate__animated animate__fadeInLeft' />
                 </Col>
-                <Col md={8}>
+                <Col md={8} className='animate__animated animate__zoomInUp'>
                     <h3> {superhero} </h3>
                     <ul className='list-group list-group-flush'>
                         <li className='list-group-item'>
