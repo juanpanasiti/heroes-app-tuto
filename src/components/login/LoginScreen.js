@@ -7,13 +7,14 @@ export const LoginScreen = ({ history }) => {
   const {dispatch} = useContext(AuthContext)
 
   const handleClick = () => {
-    history.replace('/marvel')
     dispatch({
       type: types.login,
       payload: {
         name: 'Juan'
       }
     })
+    
+    history.replace('/marvel')
   };
   return (
     <div className='container mt-5'>
